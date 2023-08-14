@@ -1,0 +1,34 @@
+.hero-img{
+    min-height: 100vh;
+    min-width: 100%;
+    justify-content: end;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1323&q=80');
+    background-position: 0;
+    background-size: cover;
+}
+
+.glassCard{
+    /* From https://css.glass */
+background: rgba(50, 93, 172, 0.663);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(53, 50, 50, 0.24);
+}
+
+.bg-darkish{
+    background-color: rgba(37, 35, 35, 0.428);
+}
+.bg-lightish{
+    background-color: rgba(215, 215, 133, 0.694);
+}
+
+.bg-darkish2{
+    background-color: rgba(37, 35, 35, 0.818);
+}
+
+.scoreFont{
+    font-family: 'Notable', sans-serif;
+}
